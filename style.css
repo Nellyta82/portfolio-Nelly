@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+/* Haciendo cambios al fondo de pantalla */
+
+.img1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+
+/* Haciendo Cambios al logo del CV */
+
+.img-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2{
+    transform: translate(0%, 0%);
+    height: 150px;
+    box-shadow: 5px 5px 5px  rgb(187, 152, 243);
+}
+
+/* Cambiando el título principal */
+
+h1{
+    transform: translate(0%, 0%);
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    color: black;
+    text-shadow: 5px 5px 5px rgb(187, 152, 243);
+}
+
+/* Cambiando los párrados del CV */
+
+p{
+    transform: translate(0%, 0%);
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-style: oblique;
+    color: black;
+    text-shadow: 5px 5px 5px rgb(187, 152, 243);
+    font-size: 25px;
+}
+
+/* Haciendo cambios en los títulos secundarios */
+
+h2{
+    transform: translate(0%, 0%);
+    font-family: 'DM Sans', sans-serif;
+    text-align: justify;
+    font-style: oblique;
+    text-shadow: 10px 10px 10px rgb(203, 222, 241);
+}
+
+/* Haciendo cambios al cuerpo del CV */
+
+#main{
+    transform: translate(0%, 0%);
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: justify;
+    font-style: oblique;
+    text-shadow: 10px 10px 10px rgb(203, 222, 241);
+    color: black;
+}
+
+/* Haciendo Cambios a las listas */
+
+ul{
+    transform: translate(0%, 0%);
+    text-align: justify;
+    font-family: 'Mukta', sans-serif;
+    font-style: oblique;
+    text-shadow: 10px 10px 10px rgb(203, 222, 241); 
+    color: black;
+    font-size: 25px;
+}
+
+/* Haciendo cambios al enlace */
+
+.enlace{
+    transform: translate(0%, 0%);
+    text-align: justify;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 10px 10px 10px rgb(203, 222, 241);
+    color: rgb(97, 8, 239);
+    font-size: 30px;
+    position: absolute;
+}
+
+button{
+    height: 50px;
+    font-size: 50px;
+    border: none;
+}
